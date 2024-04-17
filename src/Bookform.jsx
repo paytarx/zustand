@@ -5,7 +5,7 @@ function BookForm() {
   const addBook = useBookStore((state) => state.addBook);
   const [bookDetails, setBookDetails] = useState({});
 
-  const handleOnChange = (event) => {
+  const handleOnChange = (event) => { 
     const { name, value } = event.target;
     setBookDetails({ ...bookDetails, [name]: value });
   };

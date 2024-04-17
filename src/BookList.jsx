@@ -7,7 +7,7 @@ function BookList() {
       books: state.books,
       noOfAvailable: state.noOfAvailable,
       noOfIssued: state.noOfIssued,
-      issueBook: state.issueBook,
+      issueBook: state.issueBook, 
       returnBook: state.returnBook,
     }));
 

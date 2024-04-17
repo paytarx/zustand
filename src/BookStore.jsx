@@ -9,7 +9,7 @@ const bookStore = (set, get) => ({
       books: [...state.books, { ...book, status: "available" }],
       noOfAvailable: state.noOfAvailable + 1,
     }));
-  },
+  }, 
   issueBook: (id) => {
     const books = get().books;
     const updatedBooks = books?.map((book) => {
